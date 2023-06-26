@@ -1,6 +1,6 @@
 {
-  "name": "loan",
-  "version": "0.0.2",
+  "name": "loan-extended",
+  "version": "0.0.35",
   "description": "Tool for making calculations on loans",
   "license": "MIT",
   "keywords": [
@@ -19,7 +19,9 @@
     "url": "git://github.com/tedeh/loan.git"
   },
   "homepage": "http://loan.tedeh.net",
-  "bugs": "https://github.com/tedeh/loan/issues",
+  "bugs": {
+    "url": "https://github.com/tedeh/loan/issues"
+  },
   "main": "index",
   "contributors": [
     "Tedde Lundgren <mail@tedeh.net> (http://tedeh.net)"
@@ -50,5 +52,10 @@
     "jshint": "^2.9.1",
     "mocha": "^2.4.5",
     "should": "^8.2.2"
+  },
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
   }
 }
